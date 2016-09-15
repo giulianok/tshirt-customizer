@@ -7,3 +7,6 @@ typings
 dist
 
 npm-debug.log*
+
+src/scripts/*.js
+src/scripts/*.map
