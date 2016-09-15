@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.list {
+    float: left;
+    width: 100%;
+}
+
+.list .item {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 0 10px;
+}
+
+#apparel {
+    display: inline-block;
+    position: relative;
+}
+#apparel img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+#apparel canvas {
+    position: relative;
+}

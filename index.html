@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generate Image</title>
+    <link rel="stylesheet" href="/src/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="/src/lib/jquery.js"></script>
+    <script src="/src/lib/jCanvas.js"></script>
+    <script src="/src/lib/jqueryFontSpy.js"></script>
+    <script src="/src/lib/canvas2image.js"></script>
+    <script src="/src/lib/downScaleImage.js"></script>
+</head>
+<body>
+
+<h1>T-Shirt Customizer</h1>
+
+<div id="apparel">
+    <canvas id="CustomizerCanvas" width="432" height="432" style="border: solid 1px red;"></canvas>
+</div>
+
+<hr>
+
+<div customizer-label-wrapper>
+    <label>Number (2 max)</label><br>
+    <input id="CustomizerNumber" type="string" placeholder="Number" maxlength="2">
+    <div style="color: red" class="error"></div>
+</div>
+
+<br>
+
+<div customizer-label-wrapper>
+    <label>Text (12 max)</label><br>
+    <input id="CustomizerName" type="string" placeholder="Text" maxlength="12">
+    <div style="color: red" class="error"></div>
+</div>
+
+<br><br>
+
+<div>
+    <button type="button" id="Download">Download</button>
+</div>
+
+<script src="/dist/tshirt-customizer.js"></script>
+</body>
+</html>
